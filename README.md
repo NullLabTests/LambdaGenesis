@@ -61,3 +61,29 @@ source .venv/bin/activate
 python run.py
 ```
 
+
+---
+# Research Presentation Layer
+LambdaGenesis now includes:
+- ecology visualization
+- animated exports
+- complexity plots
+- entropy tracking
+- promotional assets
+- research abstracts
+- social launch templates
+
+---
+# Core Questions
+- Can symbolic graph chemistry self-organize?
+- Can persistent catalytic structures emerge?
+- Can ecological pressure drive adaptive symbolic evolution?
+- Can open-ended symbolic complexity appear naturally?
+
+---
+# Generated Artifacts
+```text
+media/screenshots/
+media/gifs/
+media/plots/
+```

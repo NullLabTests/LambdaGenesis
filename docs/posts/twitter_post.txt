@@ -1,0 +1,11 @@
+Built LambdaGenesis:
+an experimental symbolic ecology / artificial-life system exploring graph chemistry and emergent organization.
+
+Inspired by:
+- AlChemy
+- Avida
+- origin-of-life research
+- autocatalytic sets
+
+#ArtificialLife #ALife #ComplexSystems #Emergence
+https://github.com/NullLabTests/LambdaGenesis

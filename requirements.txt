@@ -7,3 +7,5 @@ pyyaml
 pillow
 rustworkx
 scipy
+imageio
+pandas
