@@ -1,32 +1,38 @@
 from PIL import Image
 from PIL import ImageDraw
 
-WIDTH = 1200
-HEIGHT = 400
+WIDTH = 1600
+HEIGHT = 500
 
 img = Image.new(
-    "RGB",
+    'RGB',
     (WIDTH, HEIGHT),
-    color=(10, 10, 20)
+    color=(5, 5, 12)
 )
 
-draw = ImageDraw.Draw(img)
+ctx = ImageDraw.Draw(img)
 
-for i in range(400):
+for i in range(1200):
     x = (i * 37) % WIDTH
     y = (i * 91) % HEIGHT
 
-    r = 2 + (i % 4)
+    r = (i % 6) + 1
 
-    draw.ellipse(
+    ctx.ellipse(
         (x, y, x + r, y + r),
         fill=(0, 255, 180)
     )
 
-draw.text(
-    (60, 160),
-    "LambdaGenesis",
+ctx.text(
+    (120, 200),
+    'LambdaGenesis V2',
     fill=(255, 255, 255)
 )
 
-img.save("assets/banner.png")
+ctx.text(
+    (120, 250),
+    'Symbolic Ecology / Artificial Life',
+    fill=(120, 255, 220)
+)
+
+img.save('assets/banner.png')

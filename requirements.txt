@@ -5,3 +5,5 @@ pygame
 rich
 pyyaml
 pillow
+rustworkx
+scipy
