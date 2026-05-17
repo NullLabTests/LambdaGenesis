@@ -1,0 +1,7 @@
+numpy
+networkx
+matplotlib
+pygame
+rich
+pyyaml
+pillow
