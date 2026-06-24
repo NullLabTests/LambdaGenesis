@@ -1,11 +1,25 @@
+# Byte-compiled
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.venv/
-venv/
+*.py[cod]
+*$py.class
+
+# Env
 .env
+.venv
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
-*.sqlite3
-*.db
-*.log
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/
